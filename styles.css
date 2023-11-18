@@ -1,0 +1,95 @@
+body {
+background: #666677;
+width: 100%;
+max-width: 560px;
+font-family: Calibri;
+font-size: 12px;
+color: #aaaadd;
+margin: 0px;
+padding: 0px;
+}
+
+#signin {
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 190px;
+    background: linear-gradient(#555577, #222233);
+    padding: 2em;
+    visibility: visible;
+}
+
+#type {
+bottom: 0px;
+position: fixed;
+width: 100%;
+height: 190px;
+background: linear-gradient(#555577, #222233);
+padding: 2em;
+visibility: hidden;
+}
+
+button {
+padding: 3px 20px;
+border-radius: 3px;
+border: 1px solid #222244;
+background: linear-gradient(#444466, #000022);
+color: #ffffff;
+font-size: 10px;
+font-family: Calibri;
+margin: 0 1em;
+}
+
+#msg {
+border-radius: 3px;
+border: 1px solid #222244;
+background: #000022;
+height: 5em;
+width: 25em;
+color: #ffffff;
+}
+
+#main {
+color: #ffffff;
+height: 26em;
+width: 100%;
+margin: 0 1em;
+padding: 5px;
+overflow-y: scroll;
+}
+
+#header {
+    margin: 0 1em;
+    padding: 5px;
+}
+
+hr {
+    width: 100%;
+}
+
+.display {
+    background: linear-gradient(#666688, #444466);
+    border-radius: 5px;
+    padding: 1em;
+    margin: 10px 1em;
+    color: #ffffff;
+    float: right;
+    width: 25em;
+    box-shadow: 0px 0px 5px 1px black;
+}
+
+.display2 {
+    background: linear-gradient(#666666, #444444);
+    border-radius: 5px;
+    padding: 1em;
+    margin: 10px 1em;
+    color: #ffffff;
+    float: left;
+    width: 25em;
+    box-shadow: 0px 0px 5px 1px black;
+}
+
+h1 {
+font-family: Courier New;
+color: #ffffff;
+}
